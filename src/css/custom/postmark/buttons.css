@@ -5,7 +5,7 @@
   --tw-gradient-stops: var(--tw-gradient-from),
     var(--tw-gradient-to, rgb(139 92 246 / 0));
   border-radius: 3px;
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  background-image: linear-gradient(to right, #8b5cf6, #d946ef);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
 }
 
