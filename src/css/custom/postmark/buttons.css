@@ -1,11 +1,11 @@
 .button {
-  @apply inline-block text-white no-underline;
-  background-color: #3869D4;
-  border-top: 10px solid #3869D4;
-  border-right: 18px solid #3869D4;
-  border-bottom: 10px solid #3869D4;
-  border-left: 18px solid #3869D4;
+  @apply inline-block text-white no-underline px-16 py-12;
+  --tw-gradient-from: #8b5cf6;
+  --tw-gradient-to: #d946ef;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, rgb(139 92 246 / 0));
   border-radius: 3px;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
 }
 

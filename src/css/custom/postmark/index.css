@@ -30,6 +30,7 @@
 }
 
 @screen dark {
+
   body,
   .email-body,
   .email-body_inner,
@@ -37,7 +38,7 @@
   .email-wrapper,
   .email-masthead,
   .email-footer {
-    @apply bg-gray-postmark-darker text-white !important;
+    @apply text-white !important;
   }
 
   p,
