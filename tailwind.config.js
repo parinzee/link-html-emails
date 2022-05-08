@@ -157,7 +157,6 @@ module.exports = {
   },
   corePlugins: {
     animation: false,
-    backgroundOpacity: false,
     borderOpacity: false,
     divideOpacity: false,
     placeholderOpacity: false,
