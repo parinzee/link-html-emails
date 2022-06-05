@@ -1,0 +1,81 @@
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="email-wrapper w-full font-sans">
+      <tr>
+        <td align="center">
+          <table class="email-content w-full">
+            <component src="src/components/header.html"></component>
+            <raw>
+              <tr>
+                <td class="email-body w-full bg-white">
+                  <table align="center" class="email-body_inner w-570 bg-white mx-auto sm:w-full">
+                    <tr>
+                      <td class="p-45">
+                        <div class="text-base">
+                          <h1 class="mt-0 text-2xl font-bold text-left text-gray-postmark-darker">Dear respected
+                            teachers,</h1>
+                          <p class="mt-6 mb-20 text-base leading-24 text-gray-postmark-dark text-justify">
+                            We are the LINK Student Council candidate and we hope you're having a great day! </p>
+                          <p class="mt-6 mb-20 text-base leading-24 text-gray-postmark-dark text-justify">
+                            As part of
+                            student council campaign, We
+                            have created the
+                            <b>
+                              <i>"Ideal Student Council Survey"</i></b> to help us understand the needs of everyone and
+                            do our very best to fulfill them.
+                          </p>
+                          <table align="center" class="w-full text-center my-30 mx-auto">
+                            <tr>
+                              <td align="center">
+                                <table class="w-full">
+                                  <tr>
+                                    <td align="center" class="text-base">
+                                      <a href="https://forms.gle/bJH2btyWU9J8vMEc6"
+                                        class="inline-block text-white px-16 py-14 no-underline rounded-xl"
+                                        style="background-image: linear-gradient(to right, #34d399, #3b82f6);"
+                                        target="_blank">
+                                        Fill out "Ideal Student Council Survey"</a>
+                                      <p class="mt-6 mb-20 text-xs leading-24 text-gray-postmark-dark">
+                                        *Name & email <b>will not</b> be recorded.
+                                      </p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                          <p class="mt-6 mb-20 text-base leading-24 text-gray-postmark-dark text-justify">
+                            Thank you very much for your time and participation. God bless!
+
+                          </p>
+                          <p class="mt-6 mb-20 text-base leading-24 text-gray-postmark-dark">
+                            Best Regards,
+                            <br>Parinthapat Pengpun
+                            <br>
+                            <span class="text-xs">Vice President of LINK SC Candidate</span>
+                          </p>
+                          <table class="body-sub">
+                            <tr>
+                              <td>
+                                <p class="mt-6 mb-20 text-xs leading-24 text-gray-postmark-dark">If you're having
+                                  trouble with the button above, copy and paste the URL below into your web browser.</p>
+                                <p class="mt-6 mb-20 text-xs leading-24 text-gray-postmark-dark">
+                                  https://forms.gle/UxEombtz3ov92ZqFA
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </raw>
+            <component src="src/components/footer.html"></component>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>
